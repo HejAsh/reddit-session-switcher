@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Reddit Session Switcher",
+  "version": "1.0",
+  "description": "Switch between Reddit accounts by swapping session cookies.",
+  "permissions": ["cookies", "storage", "scripting", "activeTab", "tabs"],
+  "host_permissions": ["*://*.reddit.com/*"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [{
+    "matches": ["*://*.reddit.com/*"],
+    "js": ["content.js"],
+    "run_at": "document_idle"
+  }],
+  "action": { "default_popup": "popup.html" }
+}

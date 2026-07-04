@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Reddit Session Switcher</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <span class="snoo">&#9733;</span>
+      <span>Reddit Session Switcher</span>
+    </div>
+  </header>
+
+  <section class="accounts">
+    <h2>Saved Accounts</h2>
+    <ul id="accountList" class="account-list"></ul>
+    <div id="emptyState" class="empty">No accounts saved yet.</div>
+  </section>
+
+  <section class="actions">
+    <button id="captureBtn" class="btn btn-primary">
+      <span class="icon">+</span> Capture Current Account
+    </button>
+  </section>
+
+  <section class="instructions">
+    <h3>How to use</h3>
+    <ol>
+      <li>Log into a Reddit account normally on reddit.com.</li>
+      <li>Click <strong>Capture Current Account</strong> to save its session.</li>
+      <li>Log into another Reddit account and capture it too.</li>
+      <li>Click <strong>Switch</strong> on any saved account to swap sessions instantly.</li>
+      <li>Click an account name to rename it.</li>
+    </ol>
+  </section>
+
+  <script src="popup.js"></script>
+</body>
+</html>
