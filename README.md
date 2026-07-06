@@ -2,8 +2,9 @@
 
 Switch between multiple Reddit accounts with one click by swapping session cookies. A minimal, privacy-focused Chrome extension.
 
-## Features
+![RSS Screenshot](RSS.png)
 
+## Features
 - **Capture current account** – Save the active Reddit session while you are logged in.
 - **One-click switching** – Swap sessions instantly from the popup or the floating dropdown on Reddit pages.
 - **Rename accounts** – Click any account name in the popup to give it a custom label.
@@ -64,3 +65,7 @@ See [PRIVACY.md](./PRIVACY.md) for the full privacy policy.
 ## License
 
 [MIT](./LICENSE)
+
+---
+
+Support the project: [buymeacoffee.com/hejash](https://buymeacoffee.com/hejash)
