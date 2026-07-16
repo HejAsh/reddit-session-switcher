@@ -1,71 +1,110 @@
-# reddit-session-switcher
+# 🔄 Reddit Session Switcher
 
-Switch between multiple Reddit accounts with one click by swapping session cookies. A minimal, privacy-focused Chrome extension.
+> Switch between multiple Reddit accounts with one click.
 
-![RSS Screenshot](RSS.png)
+A lightweight, privacy-focused Chrome extension that lets you save and instantly switch between multiple Reddit sessions without repeatedly logging in and out.
 
-## Features
-- **Capture current account** – Save the active Reddit session while you are logged in.
-- **One-click switching** – Swap sessions instantly from the popup or the floating dropdown on Reddit pages.
-- **Rename accounts** – Click any account name in the popup to give it a custom label.
-- **Delete accounts** – Remove saved sessions you no longer need.
-- **No passwords stored** – Only session cookies already held by the browser are captured and stored locally.
+<p align="center">
+  <img src="RSS.png" alt="Reddit Session Switcher" width="900">
+</p>
 
-## How to use
-
-1. Log into a Reddit account normally on [reddit.com](https://www.reddit.com).
-2. Click the extension icon in the toolbar and select **Capture Current Account**.
-3. Log into another Reddit account in the same browser and capture it too.
-4. Click **Switch** next to any saved account to swap sessions. The active Reddit tab will reload.
-5. Click an account name to rename it, or click **Delete** to remove it.
-
-You can also use the floating **▼ Accounts** dropdown that appears on Reddit pages.
-
-## Install on Chrome or compatible browsers
-
-This extension is built for **Manifest V3** and works in Chromium-based browsers such as Google Chrome, Microsoft Edge, Brave, Opera, and Vivaldi.
-
-### From source (developer mode)
-
-1. Download or clone this repository.
-2. Open your browser and go to the extensions page:
-   - **Chrome:** `chrome://extensions/`
-   - **Edge:** `edge://extensions/`
-   - **Brave:** `brave://extensions/`
-   - **Opera:** `opera://extensions/`
-   - **Vivaldi:** `vivaldi://extensions/`
-3. Enable **Developer mode** (usually a toggle in the top-right corner).
-4. Click **Load unpacked** and select the extension folder.
-5. The extension icon will appear in the toolbar. Pin it for easy access.
-
-### From the Chrome Web Store (coming soon)
-
-Once published, you can install the extension directly from the Chrome Web Store.
-
-## Permissions
-
-- `cookies` – Read and write Reddit session cookies.
-- `storage` – Save captured accounts locally.
-- `scripting` – Detect the logged-in username from the Reddit page.
-- `activeTab` / `tabs` – Reload the active Reddit tab after switching.
-- `host_permissions` for `*://*.reddit.com/*` – The extension only operates on Reddit.
-
-## Privacy
-
-This extension does not collect, transmit, or share any personal data. All Reddit session cookies are stored only in the browser's local storage (`chrome.storage.local`). Users can delete saved accounts at any time from the popup.
-
-See [PRIVACY.md](./PRIVACY.md) for the full privacy policy.
-
-## Limitations
-
-- Session cookies can expire. If an account stops working, log into Reddit again and re-capture the account.
-- The extension works best on `www.reddit.com` and `old.reddit.com`. New Reddit layouts may use additional tokens that are harder to swap.
-- Stored sessions are not encrypted. Avoid using this extension on shared computers.
-
-## License
-
-[MIT](./LICENSE)
+<p align="center">
+  <a href="https://github.com/HejAsh/reddit-session-switcher/stargazers">
+    <img src="https://img.shields.io/github/stars/HejAsh/reddit-session-switcher?style=for-the-badge">
+  </a>
+  <a href="https://github.com/HejAsh/reddit-session-switcher/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/HejAsh/reddit-session-switcher?style=for-the-badge">
+  </a>
+  <img src="https://img.shields.io/badge/Manifest-V3-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Privacy-Local%20Storage-success?style=for-the-badge">
+</p>
 
 ---
 
-Support the project: [buymeacoffee.com/hejash](https://buymeacoffee.com/hejash)
+## ✨ Features
+
+- 🚀 One-click account switching
+- 💾 Save unlimited Reddit sessions
+- 📝 Rename saved accounts
+- 🗑️ Delete accounts anytime
+- 🔒 Stores data locally
+- 🔐 Never stores passwords
+- 🪶 Lightweight and fast
+- 🌐 Floating account switcher on Reddit
+
+---
+
+## 📦 Installation
+
+### Chrome / Edge / Brave / Opera / Vivaldi
+
+1. Clone or download this repository.
+2. Open your browser's Extensions page.
+3. Enable **Developer Mode**.
+4. Click **Load unpacked**.
+5. Select this project's folder.
+
+Done!
+
+---
+
+## 🚀 Usage
+
+1. Log into Reddit.
+2. Press **Capture Current Account**.
+3. Log into another Reddit account.
+4. Capture it as well.
+5. Switch between accounts with one click.
+
+You can also use the floating **Accounts** menu directly on Reddit pages.
+
+---
+
+## 🔒 Privacy
+
+Everything stays on **your computer**.
+
+The extension:
+
+- ✅ Never uploads data
+- ✅ Never tracks users
+- ✅ Never stores passwords
+- ✅ Only stores Reddit session cookies locally
+
+See **PRIVACY.md** for more information.
+
+---
+
+## ⚠️ Limitations
+
+- Reddit sessions eventually expire.
+- Simply log in again and capture the account if needed.
+- Best compatibility with:
+  - reddit.com
+  - old.reddit.com
+
+---
+
+## ❤️ Support Development
+
+If this extension saves you time, consider supporting future updates.
+
+<p align="center">
+
+<a href="https://ko-fi.com/hejash">
+<img src="https://img.shields.io/badge/Support-Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white">
+</a>
+
+&nbsp;&nbsp;
+
+<a href="https://buymeacoffee.com/hejash">
+<img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black">
+</a>
+
+</p>
+
+---
+
+## 📄 License
+
+Licensed under the **MIT License**.
