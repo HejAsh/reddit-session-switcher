@@ -94,9 +94,6 @@ If this extension saves you time, consider supporting future updates.
 <a href="https://ko-fi.com/hejash">
 <img src="https://img.shields.io/badge/Support-Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white">
 </a>
-
-&nbsp;&nbsp;
-
 <a href="https://buymeacoffee.com/hejash">
 <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black">
 </a>
