@@ -58,6 +58,16 @@ h2, h3 {
   border-color: #ff4500;
   background: #fff5f2;
 }
+.account-list li[draggable="true"] {
+  cursor: grab;
+}
+.account-list li.dragging {
+  background: #ffe9e0;
+  cursor: grabbing;
+}
+.account-list li.drag-over {
+  border-top: 2px solid #ff4500;
+}
 .account-list li.active .name::before {
   content: '✓ ';
   color: #ff4500;

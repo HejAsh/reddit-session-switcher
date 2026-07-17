@@ -134,6 +134,11 @@ chrome.runtime.onMessage.addListener((msg, sender, respond) => {
     renameAccount(msg.id, msg.label, () => getAllAccounts(respond));
     return true;
   }
+  if (msg.action === 'reorderAccounts') {
+    if (Array.isArray(msg.order)) setAllAccounts(msg.order, () => getAllAccounts(respond));
+    else getAllAccounts(respond);
+    return true;
+  }
   if (msg.action === 'switchAccount') {
     switchToAccount(msg.id, () => getAllAccounts(respond));
     return true;
