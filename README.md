@@ -31,6 +31,7 @@ A lightweight, privacy-focused Chrome extension that lets you save and instantly
 - 🔐 Never stores passwords
 - 🪶 Lightweight and fast
 - 🌐 Floating account switcher on Reddit
+- 🔀 Drag to reorder saved accounts
 
 ---
 
@@ -57,6 +58,8 @@ Done!
 5. Switch between accounts with one click.
 
 You can also use the floating **Accounts** menu directly on Reddit pages.
+
+Drag saved accounts in the popup to reorder them — the order is saved locally.
 
 ---
 
